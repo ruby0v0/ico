@@ -9,6 +9,10 @@ import {
 
 export default defineConfig({
   // ...UnoCSS options
+  shortcuts: {
+    'container-wrapper': 'container mx-auto p-4 md:p-5',
+    'color-base': 'text-gray-700 dark:text-gray-300',
+  },
   presets: [
     presetWind3(),
     presetIcons(),
