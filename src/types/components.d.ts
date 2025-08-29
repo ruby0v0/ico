@@ -11,6 +11,7 @@ declare module 'vue' {
     AppContent: typeof import('./../components/layout/AppContent.vue')['default']
     AppFooter: typeof import('./../components/layout/AppFooter.vue')['default']
     AppHeader: typeof import('./../components/layout/AppHeader.vue')['default']
+    AppIcon: typeof import('./../components/base/AppIcon.vue')['default']
     AppProvider: typeof import('./../components/layout/AppProvider.vue')['default']
     NButton: typeof import('naive-ui')['NButton']
     NConfigProvider: typeof import('naive-ui')['NConfigProvider']
@@ -21,6 +22,7 @@ declare module 'vue' {
     NMessageProvider: typeof import('naive-ui')['NMessageProvider']
     NModalProvider: typeof import('naive-ui')['NModalProvider']
     NNotificationProvider: typeof import('naive-ui')['NNotificationProvider']
+    NResult: typeof import('naive-ui')['NResult']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

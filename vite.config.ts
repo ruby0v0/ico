@@ -12,9 +12,20 @@ const host = process.env.TAURI_DEV_HOST
 // https://vite.dev/config/
 export default defineConfig(async () => ({
   plugins: [
-    vue(),
+    vue({
+      features: {
+        customElement: ['iconify-icon'],
+      },
+      template: {
+        compilerOptions: {
+          isCustomElement: tag => tag === 'iconify-icon',
+        },
+      },
+    }),
     UnoCSS(),
-    Pages(),
+    Pages({
+      importMode: 'sync',
+    }),
     AutoImport({
       dts: 'src/types/auto-imports.d.ts',
       imports: [
