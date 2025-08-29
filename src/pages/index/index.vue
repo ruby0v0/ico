@@ -74,7 +74,7 @@ onMounted(() => {
               grid="~ cols-[1fr_90px] gap2"
               border="1 solid gray-300"
               hover="text-[var(--primary-color)] border-[var(--primary-color)]"
-              color-base translate-z-0 cursor-pointer p3 transition-all duration-300
+              translate-z-0 cursor-pointer p3 color-base transition-all duration-300
             >
               <div>
                 <p text-lg leading-5>
