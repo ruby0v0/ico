@@ -1,9 +1,12 @@
+/* eslint-disable */
+/* prettier-ignore */
+// @ts-nocheck
+
+import type { IconifyInfo, IconifyJSON } from '@iconify/types'
+
 export { }
 
 declare global {
-  type IconifyInfo = import('@iconify/types').IconifyInfo
-  type IconifyJSON = import('@iconify/types').IconifyJSON
-
   type PresentType = 'result' | 'normal'
 
   interface CollectionInfo extends IconifyInfo {
