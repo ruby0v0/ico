@@ -34,11 +34,11 @@ function unmountIcon(name: string, icon: HTMLElement) {
 /* eslint-disable import/first */
 import type { CSSProperties } from 'vue'
 
-const props = defineProps<Props>()
-
 interface Props {
   icon: string
 }
+
+const props = defineProps<Props>()
 
 let node: HTMLElement | undefined
 

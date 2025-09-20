@@ -1,7 +1,9 @@
 {
   "cSpell.words": [
     "unocss",
-    "iconify"
+    "iconify",
+    "tauri",
+    "unplugin"
   ],
 
   // Disable the default formatter, use eslint instead
