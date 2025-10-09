@@ -11,6 +11,7 @@ export default defineConfig({
   shortcuts: {
     'container-wrapper': 'container mx-auto p-4 md:p-5',
     'color-base': 'text-gray-700 dark:text-gray-300',
+    'border-base': 'border-hex-888/15',
   },
   presets: [
     presetAttributify(),
@@ -23,7 +24,7 @@ export default defineConfig({
   ],
   theme: {
     colors: {
-      primary: 'var(--theme-color)',
+      primary: 'var(--primary-color)',
     },
   },
 })

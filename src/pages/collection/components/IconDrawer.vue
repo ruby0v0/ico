@@ -61,7 +61,7 @@ defineExpose({
           </n-button>
         </div>
         <div v-if="props.collectionMeta?.license">
-          <a class="text-xs opacity-50 hover:opacity-100" :href="props.collectionMeta?.license.url" target="_blank">
+          <a class="text-xs op-50 hover:op-100" :href="props.collectionMeta?.license.url" target="_blank">
             {{ props.collectionMeta?.license.title }}
           </a>
         </div>
